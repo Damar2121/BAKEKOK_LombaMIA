@@ -115,24 +115,30 @@
   },
   {
     "id": 9,
-    "nama": "Jamu Ibu Tini",
-    "kategori": "Minuman",
-    "deskripsi": "Jamu gendong tradisional seperti kunyit asam, beras kencur, dan pahitan. Dibuat segar setiap hari.",
-    "alamat": "Pasar Kranggan Lantai 2, Yogyakarta",
+    "nama": "Bebek Senjay cak rizky",
+    "kategori": "Makanan",
+    "deskripsi": "Bebek goreng kremes dengan sambal khas yang pedas dan nikmat. Daging bebek yang empuk dan bumbu meresap hingga ke tulang.",
+    "alamat": "Jl. Sunan Kudus No.09, RW No.RT.04, Gatak, Tamantirto, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55184",
     "gallery": [
-      "https://cdn.idntimes.com/content-images/community/2020/08/fromandroid-6945bcbf71ebce7b9dfd0f542b42291d.jpg"
+      "/images/Bebek1.jpg",
+      "/images/Bebek2.jpg",
+      "/images/Bebek3.jpg",
+      "/images/Bebek4.jpg"
     ],
-        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.777381673479!2d110.3281686!3d-7.8133742999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af9cb9296851d%3A0xb2632b5bc91ef028!2sBARBERSHOP%20SIMPLY%20HAIRCUT!5e0!3m2!1sid!2sid!4v1763276384798!5m2!1sid!2sid"
+        "mapUrl": "www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.7952952871224!2d110.32810579999999!3d-7.8114818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af909959d6b6f%3A0xc00dd50196d87c97!2sBebek%20Senjay%20cak%20rizky!5e0!3m2!1sid!2sid!4v1763278971754!5m2!1sid!2sid" 
   },
   {
     "id": 10,
-    "nama": "Kerajinan Kulit 'Lokal'",
-    "kategori": "Jasa",
-    "deskripsi": "Jasa pembuatan dan reparasi tas, sepatu, dan dompet kulit asli. Desain bisa custom.",
-    "alamat": "Jl. Parangtritis No. 88, Yogyakarta",
+    "nama": "Nandi Coffee",
+    "kategori": "Minuman",
+    "deskripsi": "Kopi spesialti dengan berbagai metode seduh, mulai dari manual brew hingga espresso. Suasana nyaman untuk bersantai atau bekerja.",
+    "alamat": " Jl. Sunan Kudus, Gatak, Tamantirto, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55184",
     "gallery": [
-      "https://cdn.idntimes.com/content-images/community/2020/08/fromandroid-6945bcbf71ebce7b9dfd0f542b42291d.jpg"
+      "/images/Nandi1.jpg",
+      "/images/Nandi2.jpg",
+      "/images/Nandi3.jpg",
+      "/images/Nandi4.jpg"
     ],
-        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.777381673479!2d110.3281686!3d-7.8133742999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af9cb9296851d%3A0xb2632b5bc91ef028!2sBARBERSHOP%20SIMPLY%20HAIRCUT!5e0!3m2!1sid!2sid!4v1763276384798!5m2!1sid!2sid"
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.79051842965!2d110.3281418!3d-7.8119865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af941ea2c997f%3A0x7679001062057236!2sNandi%20Coffee!5e0!3m2!1sid!2sid!4v1763279266704!5m2!1sid!2sid"
   }
 ]
