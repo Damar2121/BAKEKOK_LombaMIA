@@ -1,0 +1,341 @@
+@import url('http://googleusercontent.com/css2?family=Merriweather:wght@700&family=Nunito+Sans:wght@400;600&display=swap');
+/* ===== Reset Sederhana ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #f8f3f2; /* krem lembut (Netral, cocok) */
+  color: #2b2b2b;
+  line-height: 1.6;
+}
+
+/* ===== Pengaturan Font (Judul) ===== */
+.header h1,
+.umkm-card-content h3,
+.detail-header h2,
+.detail-section h3 {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+/* ===== Header (Palet Biru) ===== */
+.header {
+  /* Mengganti gradien merah menjadi gradien biru */
+  background: linear-gradient(135deg, #0D69AA, #1E88E5);
+  color: #fff;
+  padding: 30px 24px;
+  text-align: center;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  margin-bottom: 32px;
+}
+.header h1 {
+  font-weight: 700;
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.header-logo {
+  max-height: 90px; /* Atur tinggi maksimal logo */
+  margin-bottom: 10px; /* Beri jarak ke teks di bawahnya */
+}
+
+/* ===== Filter & Search (Palet Biru) ===== */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 32px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(13, 105, 170, 0.1);
+}
+
+/* 1. ATURAN BERSAMA (INI PENTING UNTUK UKURAN/TINGGI) */
+.filter-bar input,
+.filter-bar select {
+  padding: 12px 16px; /* <-- Ini memberikan tinggi/size */
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/* 2. ATURAN LEBAR SEARCH BAR (PANJANG) */
+.filter-bar input {
+  flex: 1 1 auto;   /* Izinkan search bar untuk tumbuh */
+  min-width: 200px; /* Lebar minimal */
+  background-color: #fff;
+  color: #2b2b2b;
+}
+
+/* 3. ATURAN LEBAR FILTER (SEMPIT) */
+.filter-bar select {
+  flex: 0 0 200px; /* Lebar tetap 200px */
+  
+  /* Style kustom biru dari tema */
+  background-color: #E3F2FD;
+  color: #0D69AA;
+  font-weight: 500;
+  border-color: #B0D7F5;
+  background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22%230D69AA%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E');
+  background-repeat: no-repeat;
+  background-position: right 16px top 50%;
+  background-size: 10px;
+}
+
+/* 4. ATURAN :FOCUS (JANGAN DIHAPUS) */
+.filter-bar input:focus,
+.filter-bar select:focus {
+  /* Focus biru */
+  border-color: #0D69AA;
+  box-shadow: 0 0 6px rgba(13, 105, 170, 0.3);
+  outline: none;
+}
+
+/* ===== Grid UMKM ===== */
+.umkm-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 28px;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+/* ===== Card UMKM (Palet Biru & Oranye) ===== */
+.umkm-card {
+  background-color: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+.umkm-card:hover {
+  transform: translateY(-8px);
+  /* Hover shadow biru */
+  box-shadow: 0 10px 25px rgba(13, 105, 170, 0.2);
+}
+.umkm-card img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  transition: filter 0.3s ease;
+}
+.umkm-card:hover img {
+  filter: brightness(0.9);
+}
+.umkm-card-content {
+  padding: 18px;
+}
+.umkm-card-content h3 {
+  font-size: 1.3rem;
+  color: #0D69AA; /* Judul biru */
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+.umkm-card-content .kategori {
+  display: inline-block;
+  /* Aksen biru untuk kategori */
+  background-color: #E3F2FD; /* Biru muda */
+  color: #0D69AA; /* Biru tua */
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.umkm-card-content p {
+  font-size: 0.92rem;
+  color: #555;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ===== Detail Page (Palet Biru) ===== */
+.detail-container {
+  background-color: #fff;
+  border-radius: 14px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  padding: 28px;
+  margin-bottom: 40px;
+}
+.detail-header h2 {
+  font-size: 2.4rem;
+  color: #0D69AA; /* Judul biru */
+  margin-bottom: 10px;
+}
+.detail-header p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 24px;
+}
+.detail-back-link {
+  display: inline-block;
+  color: #1976D2; /* Link biru */
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 24px;
+  transition: color 0.3s ease;
+}
+.detail-back-link:hover {
+  color: #0D69AA;
+  text-decoration: underline;
+}
+
+/* ===== Detail Section (Palet Biru) ===== */
+.detail-section {
+  margin-bottom: 36px;
+}
+.detail-section h3 {
+  font-size: 1.5rem;
+  color: #0D69AA; /* Sub-judul biru */
+  border-left: 6px solid #1E88E5; /* Border biru muda */
+  padding-left: 12px;
+  margin-bottom: 16px;
+}
+.detail-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 18px;
+}
+.gallery-thumbnail {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s ease, filter 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.gallery-thumbnail:hover {
+  transform: scale(1.05);
+  filter: brightness(0.9);
+  box-shadow: 0 5px 15px rgba(13, 105, 170, 0.2); /* Shadow hover biru */
+}
+
+/* ===== Peta ===== */
+.detail-map iframe {
+  width: 100%;
+  height: 400px;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Loading (Palet Biru) ===== */
+.loading {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 40px;
+  color: #0D69AA; /* Teks loading biru */
+  font-weight: 600;
+}
+
+/* ===== Animasi Masuk ===== */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===============================================
+===== CSS UNTUK MODAL FOTO (Palet Oranye) ===== 
+===============================================
+*/
+
+/* Modal Fullscreen (Lightbox) */
+.fullscreen-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  padding: 20px;
+  animation: fadeIn 0.3s ease;
+}
+
+/* Konten Gambar di dalam Modal */
+.fullscreen-content {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* Tombol Close (X) (Aksen Oranye) */
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 35px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.2s, transform 0.2s;
+  z-index: 1002;
+}
+.close-button:hover {
+  color: #FFB74D; /* Aksen oranye muda saat hover */
+  transform: scale(1.1);
+}
+
+/* Tombol Navigasi (Prev & Next) (Aksen Oranye) */
+.prev-button,
+.next-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.2s, background-color 0.2s;
+  z-index: 1001;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.prev-button:hover,
+.next-button:hover {
+  color: #fff;
+  /* Background oranye transparan saat hover */
+  background-color: rgba(245, 127, 23, 0.3);
+}
+
+/* Posisi spesifik */
+.prev-button {
+  left: 10px;
+}
+.next-button {
+  right: 10px;
+}

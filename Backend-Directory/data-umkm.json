@@ -1,0 +1,138 @@
+[
+  {
+    "id": 1,
+    "nama": "Pecel Lele PABEDU",
+    "kategori": "Makanan",
+    "deskripsi": "Warung pecel lele andalan di Gamping. Menyediakan aneka lauk seperti lele, ayam, dan lainnya, yang dipadukan dengan sambal segar. Tempat yang nyaman untuk makan malam.",
+    "alamat": "Gamping Kidul, Ambarketawang, Kec. Gamping, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55294, Indonesia",
+    "gallery": [
+      "/images/Pecel lele 1.jpg",
+      "/images/Pecel lele 2.jpg",
+      "/images/Pecel lele 3.jpg",  
+      "/images/Pecel lele 4.jpg"
+    ],
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d247.05508555508402!2d110.32792078715275!3d-7.802382114868126!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af90bfb97dd23%3A0xebc440846852ceb7!2sPECEL%20LELE%20PABEDU!5e0!3m2!1sen!2sus!4v1761141297186!5m2!1sen!2sus"
+  },
+  {
+    "id": 2,
+    "nama": "Echo Wash Laundry",
+    "kategori": "Jasa",
+    "deskripsi": "Bakso urat sapi asli dengan kuah kaldu yang kaya rasa. Resep turun temurun yang tidak pernah berubah.",
+    "alamat": "Ambarketawang Kidul Gamping Kidul Gamping Sleman, Gamping Kidul, Ambarketawang, Kec. Gamping, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55183, Indonesia",
+    "gallery": [
+      "/images/Echo wash 1.jpg",
+      "/images/Echo wash 2.jpg",
+      "/images/Echo wash 3.jpg",
+      "/images/Echo wash 4.jpg"
+    ],
+    "mapUrl":"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d247.05374439312297!2d110.32772566745909!3d-7.804651700000003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af8012da21703%3A0x827eddb7748592fd!2sEco%20Wash%20Laundry!5e0!3m2!1sen!2sus!4v1761144052664!5m2!1sen!2sus"
+  },
+  {
+    "id": 3,
+    "nama": "Premier Laundry",
+    "kategori": "Jasa",
+    "deskripsi": "Layanan laundry profesional dengan harga terjangkau. Andalan mahasiswa.",
+    "alamat": "Gatak, Tamantirto, Kasihan, Bantul Regency, Special Region of Yogyakarta 55184, Indonesia",
+    "gallery": [
+      "/images/Premier laundry.jpg",
+      "/images/Premier laundry 2.jpg",
+      "/images/Premier laundry 3.jpg",
+      "/images/Premier laundry 4.jpg"
+    ],
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4251.820468327722!2d110.32624025206584!3d-7.81151809252415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af809a7219f9f%3A0x3a6a88e4eadfedc!2sLaundry%20Express%2C%20Kiloan%2C%20Satuan%2C%20Premium%2C%20Antar%20Jemput%20Jogja(Premier%20Laundry%20Express)!5e0!3m2!1sen!2sus!4v1761144509918!5m2!1sen!2sus"
+  },
+ {
+    "id": 4,
+    "nama": "PoppinJek",
+    "kategori": "Makanan",
+    "deskripsi": "Ayam Nashville no.2 setelah rockburger",
+    "alamat": "Jl. Sunan Kudus, Gatak, Tamantirto, Kec. Godean, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55183",
+    "gallery": [
+      "https://thvnext.bing.com/th/id/OIP.8I4Z6GQ75naJiwy448b5HgHaFj?w=225&h=180&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3",
+      "https://thvnext.bing.com/th/id/OIP.dpEAKeupTqN_SVZd-W0Q_wHaD4?w=322&h=180&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3",
+      "/images/Poppin Jek 1.jpg",
+      "/images/Poppin Jek 2.jpg"
+    ],
+    "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.732260288995!2d110.31202577778541!3d-7.818139172097325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af9a4d91683e1%3A0x35d49560c9f825b4!2sPOPPIN%20JEK!5e0!3m2!1sid!2sid!4v1760954427052!5m2!1sid!2sid"
+  },
+  {
+    "id": 5,
+    "nama": "BARBERSHOP SIMPLY HAIRCUT",
+    "kategori": "Jasa",
+    "deskripsi": "Layanan cukur rambut pria dengan gaya modern dan klasik. Barber berpengalaman yang mengutamakan kepuasan pelanggan.",
+    "alamat": "Rukeman Jl. Sunan Kudus No.5a, Gatak, Tamantirto, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55184",
+    "gallery": [
+      "/images/Barber4.jpg",
+      "/images/Barber2.jpg",
+      "/images/Barber3.jpg",
+      "/images/Barber1.jpg"
+    ],
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.777381673479!2d110.3281686!3d-7.8133742999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af9cb9296851d%3A0xb2632b5bc91ef028!2sBARBERSHOP%20SIMPLY%20HAIRCUT!5e0!3m2!1sid!2sid!4v1763276384798!5m2!1sid!2sid" 
+
+  },
+  {
+    "id": 6,
+    "nama": "Emiko Burger & Fried Chicken Geprek Tamantiro",
+    "kategori": "Makanan",
+    "deskripsi": "Burger dan ayam geprek dengan cita rasa Jepang yang unik. Pilihan saus geprek yang beragam mulai dari original, keju, hingga balado pedas.",
+    "alamat": "Jl. Sunan Kudus, Gatak, Tamantirto, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55184",
+    "gallery": [
+      "/images/Emiko1.jpg",
+      "/images/Emiko2.jpg",
+      "/images/Emiko3.jpg",
+      "/images/Emiko4.jpg"
+    ],
+            "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.794324228987!2d110.328049!3d-7.811584399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af95a42ae2419%3A0xe4c50fdc44cb2b79!2sEmiko%20Burger%20%26%20Fried%20Chicken%20Geprek%20Tamantiro!5e0!3m2!1sid!2sid!4v1763276819692!5m2!1sid!2sid"
+
+  },
+  {
+    "id": 7,
+    "nama": "JUS BUAH HANI",
+    "kategori": "Minuman",
+    "deskripsi": "Jus buah segar dengan berbagai pilihan campuran buah lokal dan impor. Tanpa tambahan gula, sehat dan menyegarkan.",
+    "alamat": "Jl. Sunan Kudus Rukeman, Gatak, Tamantirto, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta",
+    "gallery": [
+      "/images/Jus1.jpg",
+      "/images/Jus2.jpg",
+      "/images/Jus3.jpg",
+      "/images/Jus4.jpg"
+    ],
+        "mapUrl":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.7797965948816!2d110.3281705!3d-7.8131192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af987a68ee0af%3A0x91b3188049b2bb60!2sJUS%20BUAH%2FSEBLAK%20HANI!5e0!3m2!1sid!2sid!4v1763277365177!5m2!1sid!2sid" 
+  },
+  {
+    "id": 8,
+    "nama": "Minuman. Tamantirto",
+    "kategori": "Minuman",
+    "deskripsi": "Minuman segar seperti es teh, es jeruk, dan es coffee. Cocok untuk melepas dahaga di siang hari.",
+    "alamat": "Jl. Sunan Kudus, Gatak, Tamantirto, Kec. Kasihan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55183",
+    "gallery": [
+      "/images/Minumah1.jpg",
+      "/images/Minuman2.jpg",
+      "/images/Minuman3.jpg",
+      "/images/Minuman4.jpg"
+    ],
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.7917479295097!2d110.3280932!3d-7.8118566000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af9ea6bf8c647%3A0x1b8ef236113a8474!2sMinuman.%20Tamantirto!5e0!3m2!1sid!2sid!4v1763277686371!5m2!1sid!2sid" 
+  },
+  {
+    "id": 9,
+    "nama": "Jamu Ibu Tini",
+    "kategori": "Minuman",
+    "deskripsi": "Jamu gendong tradisional seperti kunyit asam, beras kencur, dan pahitan. Dibuat segar setiap hari.",
+    "alamat": "Pasar Kranggan Lantai 2, Yogyakarta",
+    "gallery": [
+      "https://cdn.idntimes.com/content-images/community/2020/08/fromandroid-6945bcbf71ebce7b9dfd0f542b42291d.jpg"
+    ],
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.777381673479!2d110.3281686!3d-7.8133742999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af9cb9296851d%3A0xb2632b5bc91ef028!2sBARBERSHOP%20SIMPLY%20HAIRCUT!5e0!3m2!1sid!2sid!4v1763276384798!5m2!1sid!2sid"
+  },
+  {
+    "id": 10,
+    "nama": "Kerajinan Kulit 'Lokal'",
+    "kategori": "Jasa",
+    "deskripsi": "Jasa pembuatan dan reparasi tas, sepatu, dan dompet kulit asli. Desain bisa custom.",
+    "alamat": "Jl. Parangtritis No. 88, Yogyakarta",
+    "gallery": [
+      "https://cdn.idntimes.com/content-images/community/2020/08/fromandroid-6945bcbf71ebce7b9dfd0f542b42291d.jpg"
+    ],
+        "mapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.777381673479!2d110.3281686!3d-7.8133742999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7af9cb9296851d%3A0xb2632b5bc91ef028!2sBARBERSHOP%20SIMPLY%20HAIRCUT!5e0!3m2!1sid!2sid!4v1763276384798!5m2!1sid!2sid"
+  }
+]
